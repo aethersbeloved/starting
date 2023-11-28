@@ -5,9 +5,17 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-
 .virsraksts{
     font-size: 48px;
     color: hsl(130, 18%, 53%);
+}
+
+.forma{
+    display: flex;
+    flex-direction: column;
 }
